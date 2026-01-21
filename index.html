@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from html.designingmedia.com/hillcrest/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Aug 2024 14:17:36 GMT -->
-
 <head>
     <title>Home || Inwix Interior</title>
     <!-- /SEO Ultimate -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta charset="utf-8">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
-    <!-- <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png"> -->
-    <link rel="manifest" href="assets/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../ms-icon-144x144.html">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Latest compiled and minified CSS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/newlogo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/newlogo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/fav.png">
+    <!-- Latest compiled and minified CSS  -->
     <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/js/bootstrap.min.js">
     <!-- Font Awesome link -->
@@ -47,7 +38,123 @@
 
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <!-- Responsive CSS -->
+    <style>
+        /* Banner carousel mobile height */
+        @media (max-width: 768px) {
+            .banner-carousel {
+                height: 400px !important;
+                overflow: hidden;
+            }
+
+            .banner-carousel .item {
+                height: 400px !important;
+                overflow: hidden;
+            }
+
+            .banner-carousel .testimonial_content {
+                height: 400px !important;
+                overflow: hidden;
+            }
+
+            .banner-carousel .testimonial_content figure {
+                height: 400px !important;
+                overflow: hidden;
+                margin-bottom: 0 !important;
+            }
+
+            .banner-carousel .banner-img {
+                height: 400px !important;
+                width: 100% !important;
+                object-fit: cover;
+                display: block;
+            }
+
+            .banner-section {
+                height: 400px !important;
+                overflow: hidden;
+            }
+
+            .order-md-3 {
+                height: 400px !important;
+            }
+
+            /* Mobile banner content positioning */
+            .banner-carousel .item>div>div[style*="position: absolute"] {
+                left: 0 !important;
+                right: 0 !important;
+                padding: 0 15px !important;
+                top: 20% !important;
+            }
+        }
+
+        /* Desktop modal centering */
+        .modal-dialog.modal-dialog-lg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Desktop layout remains untouched */
+        .modal-content1 {
+            flex-direction: row;
+        }
+
+        /* Keep close icon fixed top-right */
+        .popupclose .close {
+            font-size: 30px;
+            color: #000;
+            opacity: 0.8;
+        }
+
+        /* Mobile view adjustments */
+        @media (max-width: 767.98px) {
+
+            /* Hide the image only */
+            .modal-image {
+                display: none !important;
+            }
+
+            .modal-body {
+                margin-top: 30px;
+            }
+
+            .modal-open .modal {
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+
+            /* Center form vertically and horizontally */
+            .modal-dialog {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .modal-content1 {
+                width: 90%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+
+            .modal-form {
+                width: 100% !important;
+            }
+
+            /* Keep close icon in exact same top-right corner */
+            .popupclose {
+                position: absolute !important;
+                top: 10px !important;
+                right: 20px !important;
+                z-index: 9999;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -121,143 +228,174 @@
         </header>
         <div class="social-icons position-relative">
             <ul class="list-unstyled mb-0 position-absolute">
-                <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter social-networks"></i></a>
+                <!-- <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter social-networks"></i></a>
+                </li> -->
+                <li><a href="https://www.facebook.com/profile.php?id=61565771932919" class="text-decoration-none"
+                        target="_blank"><i class="fa-brands fa-facebook-f social-networks" target="_blank"></i></a>
                 </li>
-                <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook-f social-networks"></i></a>
+                <li><a href="https://www.instagram.com/inwixinteriors/" class="text-decoration-none" target="_blank"><i
+                            class="fa-brands fa-instagram social-networks" target="_blank"></i></a>
                 </li>
-                <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram social-networks"></i></a>
-                </li>
-                <li><a href="#" class="text-decoration-none"><i
-                            class="fa-brands fa-linkedin-in social-networks"></i></a></li>
+                <!-- <li><a href="#" class="text-decoration-none"><i
+                            class="fa-brands fa-linkedin-in social-networks"></i></a></li> -->
             </ul>
         </div>
 
         <!-- *------------------banner-----------* -->
-        <section class="banner-section" >
-        <div class="order-md-3 order-1">                
-            <div class="owl-carousel owl-theme banner-carousel">   
-                
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/homebanner1.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white; " class="text-size-19 ">The Best Interior design studio in South India</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
+        <section class="banner-section">
+            <div class="order-md-3 order-1">
+                <div class="owl-carousel owl-theme banner-carousel">
+
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/homebanner1.png" alt="" class="img-fluid banner-img"
+                                    width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white; " class="text-size-19 ">The Best Interior design studio in
+                                        South India</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/homebanner2.png" alt="" class="img-fluid banner-img"
+                                    width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;" class="text-size-19 ">Inwix design your Bedrooms with
+                                        exceptional comfort & Luxury</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/homebanner3.png" alt="" class="img-fluid banner-img"
+                                    width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;">Inwix design your Bedrooms with exceptional comfort &
+                                        Luxury</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/hero5.png" alt="" class="img-fluid banner-img" width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;"> Manage Your home with your Hand & Save Energy</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/hero2.png" alt="" class="img-fluid banner-img" width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;">Inwix design your Bedrooms with exceptional comfort &
+                                        Luxury</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/homebanner4.png" alt="" class="img-fluid banner-img"
+                                    width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;">Inwix elevates your TV Units with timeless elegance &
+                                        refined functionality.</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width:100% !important; position: relative;">
+                        <div class="testimonial_content" style="position: relative;">
+                            <figure class="mb-0" style="position: relative;">
+                                <img src="assets/images/hero4.png" alt="" class="img-fluid banner-img" width="100%">
+                                <!-- Image Overlay -->
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+                                </div>
+                            </figure>
+                            <!-- Add About Us Content with absolute positioning -->
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12"
+                                style="position: absolute; top: 30%; left: 2%; z-index: 2;">
+                                <div class="banner_content" data-aos="fade-up">
+                                    <h1 style="color: white;">Inwix brings your dream kitchen with Modern Style</h1>
+                                    <p class="text-size-14 text-white mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                 <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/homebanner2.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;" class="text-size-19 ">Inwix design your Bedrooms with exceptional comfort & Luxury</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/homebanner3.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;">Inwix design your Bedrooms with exceptional comfort & Luxury</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/hero5.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;"> Manage Your home with your Hand & Save Energy</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/hero2.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;">Inwix design your Bedrooms with exceptional comfort & Luxury</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/homebanner4.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;">Inwix elevates your TV Units with timeless elegance & refined functionality.</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="item" style="width:100% !important; position: relative;">
-                    <div class="testimonial_content" style="position: relative;">
-                        <figure class="mb-0" style="position: relative;">
-                            <img src="assets/images/hero4.png" alt="" class="img-fluid banner-img" width="100%">
-                            <!-- Image Overlay -->
-                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
-                        </figure>
-                        <!-- Add About Us Content with absolute positioning -->
-                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 col-12" style="position: absolute; top: 30%; left: 2%; z-index: 2;">
-                            <div class="banner_content" data-aos="fade-up">
-                                <h1 style="color: white;">Inwix brings your dream kitchen with Modern Style</h1>
-                                <p class="text-size-14 text-white mb-0"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-               
+
             </div>
-            
-        </div>
-    </section>
+        </section>
     </div>
 
-     <!-- About Us -->
+    <!-- About Us -->
     <section class="about-section bg-light ">
         <figure class="about-backgroundimage mb-0">
             <img src="assets/images/bg-about4.png" alt="" class="img-fluid">
@@ -293,8 +431,8 @@
                                     src="assets/images/header-headphoneicon.png" alt=""></figure>
                             <div class="content">
                                 <span>Get Support</span>
-                                <a class="text-decoration-none last_list_atag" href="tel:+91 905 933 8504">+91 905 933
-                                    8504</a>
+                                <a class="text-decoration-none last_list_atag" href="tel:+91 9515131134">+91 951 513
+                                    1134</a>
                             </div>
                         </div>
                         <div class="badge c-black" id="badge">
@@ -662,7 +800,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-md-1 order-2">
                     <div class="contact-form">
                         <form id="contactpage" method="POST"
-                            action="https://html.designingmedia.com/hillcrest/contact-form.php">
+                            action="https://formspree.io/f/xqeeyrjn">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mb-0">
@@ -1080,19 +1218,20 @@
                     </div>
                     <div class="col-md-4">
                         <h6>Contact Us</h6>
-                        <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-start mb-3">
                             <i class="fa-solid fa-map-location text-white mr-3"></i>
-                            <p class="mb-0 text-size-16 text-white">21 No. King Street Madhapur, Hyderabad</p>
+                            <p class="mb-0 text-size-16 text-white">4th Floor, Bizness Square Junction, opposite Hitex
+                                Road, Jubilee Enclave, HITEC City, Madhapur, Hyderabad, Telangana 500084</p>
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <i class="phone-rotate fa-solid fa-phone-volume text-white mr-3"></i>
-                            <a href="tel:++91 905 933 8504" class="mb-0 text-decoration-none text-size-16">+91 905 933
-                                8504</a>
+                            <a href="tel:+919515131134" class="mb-0 text-decoration-none text-size-16">+91 951 513
+                                1134</a>
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <i class="fa-regular fa-envelope text-white mr-3"></i>
-                            <a href="mailto:hello@inwixgroup.com"
-                                class="mb-0 text-decoration-none text-size-16">hello@inwixgroup.com</a>
+                            <a href="mailto:hello@inwixinteriors.com"
+                                class="mb-0 text-decoration-none text-size-16">hello@inwixinteriors.com</a>
                         </div>
                     </div>
 
@@ -1131,25 +1270,26 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-md-block d-none">
                         <div class="social-icons position-relative">
                             <ul class="list-unstyled mb-0 position-absolute">
-                                <li><a href="#" class="text-decoration-none"><i
-                                            class="fa-brands fa-twitter social-networks"></i></a></li>
-                                <li><a href="#" class="text-decoration-none"><i
+                                <!-- <li><a href="#" class="text-decoration-none"><i
+                                            class="fa-brands fa-twitter social-networks"></i></a></li> -->
+                                <li><a href="https://www.facebook.com/profile.php?id=61565771932919"
+                                        class="text-decoration-none" target="_blank"><i
                                             class="fa-brands fa-facebook-f social-networks"></i></a></li>
-                                <li><a href="#" class="text-decoration-none"><i
-                                            class="fa-brands fa-instagram social-networks"></i></a></li>
-                                <li><a href="#" class="text-decoration-none"><i
-                                            class="fa-brands fa-linkedin-in social-networks"></i></a></li>
+                                <li><a href="https://www.instagram.com/inwixinteriors/" class="text-decoration-none"
+                                        target="_blank"><i class="fa-brands fa-instagram social-networks"></i></a></li>
+                                <!-- <li><a href="#" class="text-decoration-none"><i
+                                            class="fa-brands fa-linkedin-in social-networks"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <p class="mb-0 text-size-14">©2024 Inwix Interior, All Rights Reserved. </p>
+                        <p class="mb-0 text-size-14">©2025 Inwix Interior, All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-  
+
 
 
 
@@ -1159,9 +1299,9 @@
                 class="modal-content modal-content1 d-flex flex-row justify-content-center align-items-center position-relative">
 
                 <!-- Close Button -->
-                <div class="popupclose position-absolute" style="top: 10px; right: 20px; z-index: 1000;">
+                <div class="popupclose position-absolute" style="top: 5px; right: 20px; z-index: 1000;">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true" style="color: white;">&times;</span>
                     </button>
                 </div>
 
@@ -1178,14 +1318,14 @@
                     <!-- Form Section -->
                     <div class="col-md-5 modal-form" style="flex: 1;">
                         <div class="modal-body" style="width: 100%;">
-                            <form id="contactForm" style="width: 100%;">
+                            <form id="contactForm" style="width: 100%;" method="POST" action="https://formspree.io/f/xqeeyrjn">
 
                                 <div class="form-group position-relative1">
                                     <label for="Name">Name</label>
                                     <div class="form-group position-relative1">
                                         <i class="fa-regular fa-user position-absolute1"
                                             style="top: 10px; left: 10px; color: #aaa;"></i>
-                                        <input type="text" class="form-control1 form-control pl-5" id="tName"
+                                        <input type="text" class="form-control1 form-control pl-5" id="tName" name="name"
                                             placeholder="Name" required>
                                     </div>
                                 </div>
@@ -1195,7 +1335,7 @@
                                     <div class="form-group position-relative1">
                                         <i class="fa-regular fa-envelope position-absolute1"
                                             style="top: 10px; left: 10px; color: #aaa;"></i>
-                                        <input type="text" class="form-control1 form-control pl-5" id="tEmail"
+                                        <input type="email" class="form-control1 form-control pl-5" id="tEmail" name="emailid"
                                             placeholder="Email" required>
                                     </div>
                                 </div>
@@ -1205,7 +1345,7 @@
                                     <div class="form-group position-relative1">
                                         <i class="phone-rotate fa-solid fa-phone-volume position-absolute1"
                                             style="top: 10px; left: 10px; color: #aaa;"></i>
-                                        <input type="text" class="form-control1 form-control pl-5" id="tPhone"
+                                        <input type="tel" class="form-control1 form-control pl-5" id="tPhone" name="phone"
                                             placeholder="Phone Number" required>
                                     </div>
                                 </div>
@@ -1215,12 +1355,13 @@
                                     <div class="form-group position-relative1">
                                         <i class="send fa-solid fa-paper-plane position-absolute1"
                                             style="top: 10px; left: 10px; color: #aaa;"></i>
-                                        <input type="text" class="form-control1 form-control pl-5" id="tMessage"
+                                        <input type="text" class="form-control1 form-control pl-5" id="tMessage" name="msg"
                                             placeholder="Message" required>
                                     </div>
                                 </div>
 
-                                <button type="submit" class="btn btn-danger" style="width: 100%;">Submit</button>
+                                <button type="submit" class="btn "
+                                    style="width: 100%;background-color: #4AAAE4; color: #fff;">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -1229,145 +1370,64 @@
         </div>
     </div>
 
-    <!-- Responsive CSS -->
-    <style>
-        /* Banner carousel mobile height */
-        @media (max-width: 768px) {
-            .banner-carousel {
-                height: 400px !important;
-                overflow: hidden;
-            }
-
-            .banner-carousel .item {
-                height: 400px !important;
-                overflow: hidden;
-            }
-            
-            .banner-carousel .testimonial_content {
-                height: 400px !important;
-                overflow: hidden;
-            }
-
-            .banner-carousel .testimonial_content figure {
-                height: 400px !important;
-                overflow: hidden;
-                margin-bottom: 0 !important;
-            }
-            
-            .banner-carousel .banner-img {
-                height: 400px !important;
-                width: 100% !important;
-                object-fit: cover;
-                display: block;
-            }
-
-            .banner-section {
-                height: 400px !important;
-                overflow: hidden;
-            }
-
-            .order-md-3 {
-                height: 400px !important;
-            }
-
-            /* Mobile banner content positioning */
-            .banner-carousel .item > div > div[style*="position: absolute"] {
-                left: 0 !important;
-                right: 0 !important;
-                padding: 0 15px !important;
-                top: 20% !important;
-            }
-        }
-
-        /* Desktop modal centering */
-        .modal-dialog.modal-dialog-lg {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-
-        /* Desktop layout remains untouched */
-        .modal-content1 {
-            flex-direction: row;
-        }
-
-        /* Keep close icon fixed top-right */
-        .popupclose .close {
-            font-size: 30px;
-            color: #000;
-            opacity: 0.8;
-        }
-
-        /* Mobile view adjustments */
-        @media (max-width: 767.98px) {
-
-            /* Hide the image only */
-            .modal-image {
-                display: none !important;
-            }
-            .modal-body {
-                margin-top: 30px;
-            }
-
-            .modal-open .modal {
-                overflow-x: hidden;
-                overflow-y: hidden;
-            }
-
-            /* Center form vertically and horizontally */
-            .modal-dialog {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                min-height: 100vh;
-            }
-
-            .modal-content1 {
-                width: 90%;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin: 0 auto;
-            }
-
-            .modal-form {
-                width: 100% !important;
-            }
-
-            /* Keep close icon in exact same top-right corner */
-            .popupclose {
-                position: absolute !important;
-                top: 10px !important;
-                right: 20px !important;
-                z-index: 9999;
-            }
-        }
-    </style>
-
-    <!-- Bootstrap JS and dependencies -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
 
-
-
-    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <!-- jQuery, Popper.js, Bootstrap (single copy, correct order) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Script to show the modal on page load -->
+    <!-- Ensure modal shows and reliably closes; also hide mobile navbar on nav-link click -->
     <script>
-        $(document).ready(function () {
-            $('#myModal').modal('show'); // Show the modal
-        });
+        (function ($) {
+            'use strict';
+            $(function () {
+                // show modal on page load
+                $('#myModal').modal('show');
+
+                // Safeguard: explicitly hide modal when close button / any data-dismiss clicked
+                $(document).on('click', '#myModal .close, #myModal [data-dismiss="modal"]', function (e) {
+                    e.preventDefault();
+                    $('#myModal').modal('hide');
+                });
+
+                // Keep mobile navbar auto-close behaviour
+                $(document).on('click', '.navbar-collapse.show .nav-link', function () {
+                    $('.navbar-collapse').collapse('hide');
+                });
+            });
+        })(jQuery);
     </script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="assets/js/jquery-3.6.0.min.js"> </script>
-    <script src="assets/js/bootstrap.min.js"> </script>
+    {
+    <!-- Close mobile navbar when a nav link is clicked -->
+    <script>
+        (function ($) {
+            'use strict';
+
+            // Hide collapse when any .nav-link inside the opened navbar is clicked (mobile)
+            $(document).on('click', '.navbar-collapse.show .nav-link', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+
+            // Optional: ensure any clicks on .navbar-toggler close the menu properly (fallback)
+            $(document).on('click', '.navbar-toggler', function () {
+                var $target = $($(this).attr('data-target') || '#navbarSupportedContent');
+                // small timeout to let Bootstrap toggle update aria-expanded
+                setTimeout(function () {
+                    if ($target.hasClass('show')) {
+                        // currently open — do nothing
+                    } else {
+                        // currently closed — ensure it's hidden
+                        $target.collapse('hide');
+                    }
+                }, 20);
+            });
+        })(jQuery);
+    </script>
+    }
+
+    <!-- Other page scripts (keep these, but remove duplicate jquery/bootstrap files) -->
     <script src="assets/js/video_link.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/counter.js"></script>
@@ -1376,9 +1436,8 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/animation_links.js"></script>
     <script src="assets/js/animation.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
-</body>
 
-<!-- Mirrored from html.designingmedia.com/hillcrest/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Aug 2024 14:18:51 GMT -->
+
+</body>
 
 </html>

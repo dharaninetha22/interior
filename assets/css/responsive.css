@@ -2916,7 +2916,7 @@
   }
   .sub-banner_section .banner-backgroundimage img {
     width: 100%;
-    height: 500px;
+    height: 396px;
   }
   .sub-banner_section {
     padding: 50px 45px 30px;
@@ -4805,6 +4805,9 @@
 .banner-section .banner_content h1{
 font-size: 20px;
  margin-top: 164px;
+}
+.modal-content{
+  width: 100% !important;
 }
 
 

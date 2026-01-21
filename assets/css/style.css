@@ -385,7 +385,11 @@ p {
 .banner-section .banner_content h1{
     margin-bottom: 18px;
     margin-top: 100px;
+    FONT-SIZE: 40px;
+    line-height: 40px;
 }
+
+
 .banner-section .banner_content1 h1{
     margin-bottom: 18px;
     margin-top: 0px !important;
@@ -2228,7 +2232,8 @@ to {
   }
 .contactinfo-section .badge .mid-circle{
     position: absolute;
-    background: var(--e-global-color-accent);
+    /* background: var(--e-global-color-accent); */
+    background: #C0972B;
     border-radius: 50px;
     width: 28px;
     height: 28px;
@@ -2278,7 +2283,8 @@ to {
 
     font-weight: var(--char-font-weight);
     font-size: var(--char-font-size);
-    color: var(--e-global-color-dark-gray);
+    /* color: var(--e-global-color-dark-gray); */
+    color: #4AAAE4;
     font-family: 'Italiana', serif;
     transform-origin: bottom center;
     transform: rotate(var(--char-rotate));
@@ -2680,11 +2686,12 @@ to {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    width: 70% !important;
     pointer-events: auto;
     background-clip: padding-box;
     outline: 0;
-    background-color: var(--e-global-color-very-dark-gray-mostly-black);
+    background-color: white;
     border-radius: 0;
 }
 .modal-header {
@@ -3233,7 +3240,7 @@ button {
     color: white;          /* Ensure text color is white */
 }
 .popupclose button{
-    background-color:#800506  !important ;
+    background-color:#4AAAE4  !important ;
     color: white;
     padding: 5px;
     width: 40px;
